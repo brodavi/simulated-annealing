@@ -1,0 +1,19 @@
+{
+  "name": "simulated-annealing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "http-server": "^0.11.1",
+    "shuffle-array": "^1.0.1",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "node_modules/http-server/bin/http-server -c-1",
+    "watch": "node_modules/watchify/bin/cmd.js index.js -o bundle.js"
+  },
+  "author": "David Brooks",
+  "license": "MIT"
+}
